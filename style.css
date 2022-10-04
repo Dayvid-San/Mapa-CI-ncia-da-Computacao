@@ -1,0 +1,84 @@
+#trilhas{
+    background-image: url(img/mapa.jfif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -moz-background-size: cover;
+}
+.box-Planos-UFS{
+    grid-auto-flow: column;
+    position: absolute;
+    background-color: rgb(245, 226, 187);
+    border-radius: 10px;
+    border: 10px solid ;
+    border-image: url(../imagens/madeira.jpg);
+    top: 10%;
+    left: 2%;
+}
+#periodo1{
+   position: absolute;
+   top: 470px;
+   left: 110px;
+   
+}
+#periodo2{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+#periodo3{
+    position: absolute;
+    top: 200px;
+    left: 630px;
+}
+#periodo4{
+    position: absolute;
+    top: 120px;
+    left: 490px;
+}
+#periodo5{
+    position: absolute;
+    top: 16px;
+    left: 290px;
+}
+#periodo6{
+    position: absolute;
+    top: 88px;
+    left: 750px;
+}
+#periodo7{
+    position: absolute;
+    top: 88px;
+    left: 970px;
+}
+#periodo8{
+    position: absolute;
+    top: 330px;
+    left: 910px;
+}
+#periodo9{
+    position: absolute;
+    top: 430px;
+    left: 977px;
+}
+.note{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    z-index: 10px;
+}
+h4{
+    color: #fff;
+    cursor: pointer;
+}
+.feito{
+    opacity: 50%;
+}
+.desativado{display: none;}
